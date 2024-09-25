@@ -1,0 +1,1093 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Users\\llVll\\Desktop\\Projects\\TMG Portfolio\\node_modules\\node\\bin\\node.exe',
+1 verbose cli   'C:\\Users\\llVll\\Desktop\\Projects\\TMG Portfolio\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-exact',
+1 verbose cli   '--save-dev',
+1 verbose cli   'typescript',
+1 verbose cli   '@types/react',
+1 verbose cli   '@types/node'
+1 verbose cli ]
+2 info using npm@2.15.12
+3 info using node@v22.9.0
+4 verbose install initial load of C:\Users\llVll\Desktop\Projects\TMG Portfolio\package.json
+5 warn package.json @ No description
+6 warn package.json @ No repository field.
+7 warn package.json @ No README data
+8 warn package.json @ No license field.
+9 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\busboy\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\caniuse-lite\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\client-only\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\graceful-fs\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\js-tokens\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\latest\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\loose-envify\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\nanoid\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\next\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\node\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\node-bin-setup\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\npm\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\picocolors\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\postcss\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\react\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\react-dom\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\scheduler\package.json
+26 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\source-map-js\package.json
+27 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\streamsearch\package.json
+28 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\styled-jsx\package.json
+29 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\tslib\package.json
+30 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@swc\counter\package.json
+31 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@swc\helpers\package.json
+32 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@next\env\package.json
+33 verbose installManyTop reading scoped package data from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@next\swc-win32-x64-msvc\package.json
+34 info package.json client-only@0.0.1 No repository field.
+35 info package.json client-only@0.0.1 No README data
+36 info package.json @swc/helpers@0.5.5 No README data
+37 info package.json node-bin-setup@1.1.3 No README data
+38 info package.json busboy@1.6.0 No license field.
+39 info package.json latest@0.2.0 No license field.
+40 info package.json npm@2.15.12 Non-dependency in bundleDependencies: ansi-regex
+41 info package.json npm@2.15.12 Non-dependency in bundleDependencies: imurmurhash
+42 info package.json streamsearch@1.1.0 No license field.
+43 verbose readDependencies loading dependencies from C:\Users\llVll\Desktop\Projects\TMG Portfolio\package.json
+44 silly cache add args [ 'typescript', null ]
+45 verbose cache add spec typescript
+46 silly cache add args [ '@types/react', null ]
+47 verbose cache add spec @types/react
+48 silly cache add args [ '@types/node', null ]
+49 verbose cache add spec @types/node
+50 silly cache add parsed spec Result {
+50 silly cache add   raw: 'typescript',
+50 silly cache add   scope: null,
+50 silly cache add   name: 'typescript',
+50 silly cache add   rawSpec: '',
+50 silly cache add   spec: 'latest',
+50 silly cache add   type: 'tag'
+50 silly cache add }
+51 silly addNamed typescript@latest
+52 verbose addNamed "latest" is being treated as a dist-tag for typescript
+53 info addNameTag [ 'typescript', 'latest' ]
+54 silly mapToRegistry name typescript
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'typescript',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   name: 'typescript',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag'
+57 silly mapToRegistry }
+58 silly mapToRegistry uri https://registry.npmjs.org/typescript
+59 verbose addNameTag registry:https://registry.npmjs.org/typescript not in flight; fetching
+60 silly cache add parsed spec Result {
+60 silly cache add   raw: '@types/react',
+60 silly cache add   scope: '@types',
+60 silly cache add   name: '@types/react',
+60 silly cache add   rawSpec: '',
+60 silly cache add   spec: 'latest',
+60 silly cache add   type: 'tag'
+60 silly cache add }
+61 silly addNamed @types/react@latest
+62 verbose addNamed "latest" is being treated as a dist-tag for @types/react
+63 info addNameTag [ '@types/react', 'latest' ]
+64 silly mapToRegistry name @types/react
+65 silly mapToRegistry scope (from package name) @types
+66 verbose mapToRegistry no registry URL found in name for scope @types
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry data Result {
+69 silly mapToRegistry   raw: '@types/react',
+69 silly mapToRegistry   scope: '@types',
+69 silly mapToRegistry   name: '@types/react',
+69 silly mapToRegistry   rawSpec: '',
+69 silly mapToRegistry   spec: 'latest',
+69 silly mapToRegistry   type: 'tag'
+69 silly mapToRegistry }
+70 silly mapToRegistry uri https://registry.npmjs.org/@types%2freact
+71 verbose addNameTag registry:https://registry.npmjs.org/@types%2freact not in flight; fetching
+72 silly cache add parsed spec Result {
+72 silly cache add   raw: '@types/node',
+72 silly cache add   scope: '@types',
+72 silly cache add   name: '@types/node',
+72 silly cache add   rawSpec: '',
+72 silly cache add   spec: 'latest',
+72 silly cache add   type: 'tag'
+72 silly cache add }
+73 silly addNamed @types/node@latest
+74 verbose addNamed "latest" is being treated as a dist-tag for @types/node
+75 info addNameTag [ '@types/node', 'latest' ]
+76 silly mapToRegistry name @types/node
+77 silly mapToRegistry scope (from package name) @types
+78 verbose mapToRegistry no registry URL found in name for scope @types
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry data Result {
+81 silly mapToRegistry   raw: '@types/node',
+81 silly mapToRegistry   scope: '@types',
+81 silly mapToRegistry   name: '@types/node',
+81 silly mapToRegistry   rawSpec: '',
+81 silly mapToRegistry   spec: 'latest',
+81 silly mapToRegistry   type: 'tag'
+81 silly mapToRegistry }
+82 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+83 verbose addNameTag registry:https://registry.npmjs.org/@types%2fnode not in flight; fetching
+84 verbose request uri https://registry.npmjs.org/typescript
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 02:12:03
+87 verbose request id c5e87e6a671d26fc
+88 http request GET https://registry.npmjs.org/typescript
+89 verbose request uri https://registry.npmjs.org/@types%2freact
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 02:12:03
+92 http request GET https://registry.npmjs.org/@types%2freact
+93 verbose request uri https://registry.npmjs.org/@types%2fnode
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 02:12:03
+96 http request GET https://registry.npmjs.org/@types%2fnode
+97 http 200 https://registry.npmjs.org/@types%2freact
+98 verbose headers {
+98 verbose headers   date: 'Wed, 25 Sep 2024 01:12:02 GMT',
+98 verbose headers   'content-type': 'application/json',
+98 verbose headers   'transfer-encoding': 'chunked',
+98 verbose headers   connection: 'keep-alive',
+98 verbose headers   'cf-ray': '8c8724c95a01418f-LHR',
+98 verbose headers   'cf-cache-status': 'HIT',
+98 verbose headers   'access-control-allow-origin': '*',
+98 verbose headers   age: '46',
+98 verbose headers   'cache-control': 'public, max-age=300',
+98 verbose headers   etag: 'W/"e18312b0f2dc13b030454cf3ea3360b7"',
+98 verbose headers   'last-modified': 'Tue, 24 Sep 2024 14:07:48 GMT',
+98 verbose headers   vary: 'accept-encoding, accept',
+98 verbose headers   server: 'cloudflare',
+98 verbose headers   'content-encoding': 'gzip'
+98 verbose headers }
+99 silly get cb [
+99 silly get   200,
+99 silly get   {
+99 silly get     date: 'Wed, 25 Sep 2024 01:12:02 GMT',
+99 silly get     'content-type': 'application/json',
+99 silly get     'transfer-encoding': 'chunked',
+99 silly get     connection: 'keep-alive',
+99 silly get     'cf-ray': '8c8724c95a01418f-LHR',
+99 silly get     'cf-cache-status': 'HIT',
+99 silly get     'access-control-allow-origin': '*',
+99 silly get     age: '46',
+99 silly get     'cache-control': 'public, max-age=300',
+99 silly get     etag: 'W/"e18312b0f2dc13b030454cf3ea3360b7"',
+99 silly get     'last-modified': 'Tue, 24 Sep 2024 14:07:48 GMT',
+99 silly get     vary: 'accept-encoding, accept',
+99 silly get     server: 'cloudflare',
+99 silly get     'content-encoding': 'gzip'
+99 silly get   }
+99 silly get ]
+100 verbose get saving @types/react to C:\Users\llVll\AppData\Local\npm-cache\registry.npmjs.org\_40types_252freact\.cache.json
+101 verbose correctMkdir C:\Users\llVll\AppData\Local\npm-cache correctMkdir not in flight; initializing
+102 silly addNameTag next cb for @types/react with tag latest
+103 silly addNamed @types/react@18.3.9
+104 verbose addNamed "18.3.9" is a plain semver version for @types/react
+105 silly mapToRegistry name @types/react
+106 silly mapToRegistry scope (from package name) @types
+107 verbose mapToRegistry no registry URL found in name for scope @types
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry data Result {
+110 silly mapToRegistry   raw: '@types/react',
+110 silly mapToRegistry   scope: '@types',
+110 silly mapToRegistry   name: '@types/react',
+110 silly mapToRegistry   rawSpec: '',
+110 silly mapToRegistry   spec: 'latest',
+110 silly mapToRegistry   type: 'tag'
+110 silly mapToRegistry }
+111 silly mapToRegistry uri https://registry.npmjs.org/@types%2freact
+112 verbose addRemoteTarball https://registry.npmjs.org/@types/react/-/react-18.3.9.tgz not in flight; adding
+113 verbose addRemoteTarball [
+113 verbose addRemoteTarball   'https://registry.npmjs.org/@types/react/-/react-18.3.9.tgz',
+113 verbose addRemoteTarball   '2cdf5f425ec8a133d67e9e3673909738b783db20'
+113 verbose addRemoteTarball ]
+114 info retry fetch attempt 1 at 02:12:03
+115 info attempt registry request try #1 at 02:12:03
+116 http fetch GET https://registry.npmjs.org/@types/react/-/react-18.3.9.tgz
+117 http fetch 200 https://registry.npmjs.org/@types/react/-/react-18.3.9.tgz
+118 silly fetchAndShaCheck shasum 2cdf5f425ec8a133d67e9e3673909738b783db20
+119 verbose addTmpTarball C:\Users\llVll\AppData\Local\Temp\npm-59000-adf4cf96\registry.npmjs.org\_40types\react\-\react-18.3.9.tgz not in flight; adding
+120 verbose addTmpTarball already have metadata; skipping unpack for @types/react@18.3.9
+121 verbose correctMkdir C:\Users\llVll\AppData\Local\npm-cache correctMkdir not in flight; initializing
+122 silly cache afterAdd @types/react@18.3.9
+123 verbose afterAdd C:\Users\llVll\AppData\Local\npm-cache\@types\react\18.3.9\package\package.json not in flight; writing
+124 verbose correctMkdir C:\Users\llVll\AppData\Local\npm-cache correctMkdir not in flight; initializing
+125 verbose afterAdd C:\Users\llVll\AppData\Local\npm-cache\@types\react\18.3.9\package\package.json written
+126 http 200 https://registry.npmjs.org/@types%2fnode
+127 verbose headers {
+127 verbose headers   date: 'Wed, 25 Sep 2024 01:12:02 GMT',
+127 verbose headers   'content-type': 'application/json',
+127 verbose headers   'transfer-encoding': 'chunked',
+127 verbose headers   connection: 'keep-alive',
+127 verbose headers   'cf-ray': '8c8724c959d96382-LHR',
+127 verbose headers   'cf-cache-status': 'HIT',
+127 verbose headers   'access-control-allow-origin': '*',
+127 verbose headers   age: '294',
+127 verbose headers   'cache-control': 'public, max-age=300',
+127 verbose headers   etag: 'W/"754e5b337673e5219b8c295f8f07d337"',
+127 verbose headers   'last-modified': 'Wed, 25 Sep 2024 00:56:44 GMT',
+127 verbose headers   vary: 'accept-encoding, accept',
+127 verbose headers   server: 'cloudflare',
+127 verbose headers   'content-encoding': 'gzip'
+127 verbose headers }
+128 silly get cb [
+128 silly get   200,
+128 silly get   {
+128 silly get     date: 'Wed, 25 Sep 2024 01:12:02 GMT',
+128 silly get     'content-type': 'application/json',
+128 silly get     'transfer-encoding': 'chunked',
+128 silly get     connection: 'keep-alive',
+128 silly get     'cf-ray': '8c8724c959d96382-LHR',
+128 silly get     'cf-cache-status': 'HIT',
+128 silly get     'access-control-allow-origin': '*',
+128 silly get     age: '294',
+128 silly get     'cache-control': 'public, max-age=300',
+128 silly get     etag: 'W/"754e5b337673e5219b8c295f8f07d337"',
+128 silly get     'last-modified': 'Wed, 25 Sep 2024 00:56:44 GMT',
+128 silly get     vary: 'accept-encoding, accept',
+128 silly get     server: 'cloudflare',
+128 silly get     'content-encoding': 'gzip'
+128 silly get   }
+128 silly get ]
+129 verbose get saving @types/node to C:\Users\llVll\AppData\Local\npm-cache\registry.npmjs.org\_40types_252fnode\.cache.json
+130 verbose correctMkdir C:\Users\llVll\AppData\Local\npm-cache correctMkdir not in flight; initializing
+131 http 200 https://registry.npmjs.org/typescript
+132 verbose headers {
+132 verbose headers   date: 'Wed, 25 Sep 2024 01:12:02 GMT',
+132 verbose headers   'content-type': 'application/json',
+132 verbose headers   'transfer-encoding': 'chunked',
+132 verbose headers   connection: 'keep-alive',
+132 verbose headers   'cf-ray': '8c8724c95b5353a0-LHR',
+132 verbose headers   'cf-cache-status': 'HIT',
+132 verbose headers   'access-control-allow-origin': '*',
+132 verbose headers   age: '40832',
+132 verbose headers   'cache-control': 'public, max-age=300',
+132 verbose headers   etag: 'W/"516d5c9956e3661245117817ceb5041e"',
+132 verbose headers   'last-modified': 'Tue, 24 Sep 2024 07:17:23 GMT',
+132 verbose headers   vary: 'accept-encoding, accept',
+132 verbose headers   server: 'cloudflare',
+132 verbose headers   'content-encoding': 'gzip'
+132 verbose headers }
+133 silly get cb [
+133 silly get   200,
+133 silly get   {
+133 silly get     date: 'Wed, 25 Sep 2024 01:12:02 GMT',
+133 silly get     'content-type': 'application/json',
+133 silly get     'transfer-encoding': 'chunked',
+133 silly get     connection: 'keep-alive',
+133 silly get     'cf-ray': '8c8724c95b5353a0-LHR',
+133 silly get     'cf-cache-status': 'HIT',
+133 silly get     'access-control-allow-origin': '*',
+133 silly get     age: '40832',
+133 silly get     'cache-control': 'public, max-age=300',
+133 silly get     etag: 'W/"516d5c9956e3661245117817ceb5041e"',
+133 silly get     'last-modified': 'Tue, 24 Sep 2024 07:17:23 GMT',
+133 silly get     vary: 'accept-encoding, accept',
+133 silly get     server: 'cloudflare',
+133 silly get     'content-encoding': 'gzip'
+133 silly get   }
+133 silly get ]
+134 verbose get saving typescript to C:\Users\llVll\AppData\Local\npm-cache\registry.npmjs.org\typescript\.cache.json
+135 verbose correctMkdir C:\Users\llVll\AppData\Local\npm-cache correctMkdir not in flight; initializing
+136 silly addNameTag next cb for @types/node with tag latest
+137 silly addNamed @types/node@22.7.0
+138 verbose addNamed "22.7.0" is a plain semver version for @types/node
+139 silly mapToRegistry name @types/node
+140 silly mapToRegistry scope (from package name) @types
+141 verbose mapToRegistry no registry URL found in name for scope @types
+142 silly mapToRegistry using default registry
+143 silly mapToRegistry registry https://registry.npmjs.org/
+144 silly mapToRegistry data Result {
+144 silly mapToRegistry   raw: '@types/node',
+144 silly mapToRegistry   scope: '@types',
+144 silly mapToRegistry   name: '@types/node',
+144 silly mapToRegistry   rawSpec: '',
+144 silly mapToRegistry   spec: 'latest',
+144 silly mapToRegistry   type: 'tag'
+144 silly mapToRegistry }
+145 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+146 verbose addRemoteTarball https://registry.npmjs.org/@types/node/-/node-22.7.0.tgz not in flight; adding
+147 verbose addRemoteTarball [
+147 verbose addRemoteTarball   'https://registry.npmjs.org/@types/node/-/node-22.7.0.tgz',
+147 verbose addRemoteTarball   '670aa1874bc836863e5c116f9f2c32416ff27e1f'
+147 verbose addRemoteTarball ]
+148 info retry fetch attempt 1 at 02:12:04
+149 info attempt registry request try #1 at 02:12:04
+150 http fetch GET https://registry.npmjs.org/@types/node/-/node-22.7.0.tgz
+151 silly addNameTag next cb for typescript with tag latest
+152 silly addNamed typescript@5.6.2
+153 verbose addNamed "5.6.2" is a plain semver version for typescript
+154 silly mapToRegistry name typescript
+155 silly mapToRegistry using default registry
+156 silly mapToRegistry registry https://registry.npmjs.org/
+157 silly mapToRegistry data Result {
+157 silly mapToRegistry   raw: 'typescript',
+157 silly mapToRegistry   scope: null,
+157 silly mapToRegistry   name: 'typescript',
+157 silly mapToRegistry   rawSpec: '',
+157 silly mapToRegistry   spec: 'latest',
+157 silly mapToRegistry   type: 'tag'
+157 silly mapToRegistry }
+158 silly mapToRegistry uri https://registry.npmjs.org/typescript
+159 verbose addRemoteTarball https://registry.npmjs.org/typescript/-/typescript-5.6.2.tgz not in flight; adding
+160 verbose addRemoteTarball [
+160 verbose addRemoteTarball   'https://registry.npmjs.org/typescript/-/typescript-5.6.2.tgz',
+160 verbose addRemoteTarball   'd1de67b6bef77c41823f822df8f0b3bcff60a5a0'
+160 verbose addRemoteTarball ]
+161 info retry fetch attempt 1 at 02:12:04
+162 info attempt registry request try #1 at 02:12:04
+163 http fetch GET https://registry.npmjs.org/typescript/-/typescript-5.6.2.tgz
+164 http fetch 200 https://registry.npmjs.org/typescript/-/typescript-5.6.2.tgz
+165 http fetch 200 https://registry.npmjs.org/@types/node/-/node-22.7.0.tgz
+166 silly fetchAndShaCheck shasum 670aa1874bc836863e5c116f9f2c32416ff27e1f
+167 verbose addTmpTarball C:\Users\llVll\AppData\Local\Temp\npm-59000-adf4cf96\registry.npmjs.org\_40types\node\-\node-22.7.0.tgz not in flight; adding
+168 verbose addTmpTarball already have metadata; skipping unpack for @types/node@22.7.0
+169 verbose correctMkdir C:\Users\llVll\AppData\Local\npm-cache correctMkdir not in flight; initializing
+170 silly cache afterAdd @types/node@22.7.0
+171 verbose afterAdd C:\Users\llVll\AppData\Local\npm-cache\@types\node\22.7.0\package\package.json not in flight; writing
+172 verbose correctMkdir C:\Users\llVll\AppData\Local\npm-cache correctMkdir not in flight; initializing
+173 verbose afterAdd C:\Users\llVll\AppData\Local\npm-cache\@types\node\22.7.0\package\package.json written
+174 silly fetchAndShaCheck shasum d1de67b6bef77c41823f822df8f0b3bcff60a5a0
+175 verbose addTmpTarball C:\Users\llVll\AppData\Local\Temp\npm-59000-adf4cf96\registry.npmjs.org\typescript\-\typescript-5.6.2.tgz not in flight; adding
+176 verbose addTmpTarball already have metadata; skipping unpack for typescript@5.6.2
+177 verbose correctMkdir C:\Users\llVll\AppData\Local\npm-cache correctMkdir not in flight; initializing
+178 silly cache afterAdd typescript@5.6.2
+179 verbose afterAdd C:\Users\llVll\AppData\Local\npm-cache\typescript\5.6.2\package\package.json not in flight; writing
+180 verbose correctMkdir C:\Users\llVll\AppData\Local\npm-cache correctMkdir not in flight; initializing
+181 verbose afterAdd C:\Users\llVll\AppData\Local\npm-cache\typescript\5.6.2\package\package.json written
+182 silly install resolved [
+182 silly install resolved   {
+182 silly install resolved     name: '@types/react',
+182 silly install resolved     version: '18.3.9',
+182 silly install resolved     license: 'MIT',
+182 silly install resolved     _id: '@types/react@18.3.9',
+182 silly install resolved     maintainers: [ [Object] ],
+182 silly install resolved     contributors: [
+182 silly install resolved       [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object],
+182 silly install resolved       [Object]
+182 silly install resolved     ],
+182 silly install resolved     homepage: 'https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react',
+182 silly install resolved     dist: {
+182 silly install resolved       shasum: '2cdf5f425ec8a133d67e9e3673909738b783db20',
+182 silly install resolved       tarball: 'https://registry.npmjs.org/@types/react/-/react-18.3.9.tgz',
+182 silly install resolved       fileCount: 17,
+182 silly install resolved       integrity: 'sha512-+BpAVyTpJkNWWSSnaLBk6ePpHLOGJKnEQNbINNovPWzvEUyAe3e+/d494QdEh71RekM/qV7lw6jzf1HGrJyAtQ==',
+182 silly install resolved       signatures: [Array],
+182 silly install resolved       unpackedSize: 438473
+182 silly install resolved     },
+182 silly install resolved     main: '',
+182 silly install resolved     types: 'index.d.ts',
+182 silly install resolved     exports: {
+182 silly install resolved       '.': [Object],
+182 silly install resolved       './canary': [Object],
+182 silly install resolved       './jsx-runtime': [Object],
+182 silly install resolved       './experimental': [Object],
+182 silly install resolved       './package.json': './package.json',
+182 silly install resolved       './jsx-dev-runtime': [Object]
+182 silly install resolved     },
+182 silly install resolved     scripts: {},
+182 silly install resolved     _npmUser: { name: 'types', email: 'ts-npm-types@microsoft.com' },
+182 silly install resolved     repository: {
+182 silly install resolved       url: 'https://github.com/DefinitelyTyped/DefinitelyTyped.git',
+182 silly install resolved       type: 'git',
+182 silly install resolved       directory: 'types/react'
+182 silly install resolved     },
+182 silly install resolved     description: 'TypeScript definitions for react',
+182 silly install resolved     directories: {},
+182 silly install resolved     dependencies: { csstype: '^3.0.2', '@types/prop-types': '*' },
+182 silly install resolved     typesVersions: { '<=5.0': [Object] },
+182 silly install resolved     _hasShrinkwrap: false,
+182 silly install resolved     typeScriptVersion: '4.8',
+182 silly install resolved     _npmOperationalInternal: {
+182 silly install resolved       tmp: 'tmp/react_18.3.9_1727186853996_0.5825013353061457',
+182 silly install resolved       host: 's3://npm-registry-packages'
+182 silly install resolved     },
+182 silly install resolved     typesPublisherContentHash: '389c3384ed69e934b9567d9ce82f4448a91454629d15d717e033afc50d9c982c',
+182 silly install resolved     _shasum: '2cdf5f425ec8a133d67e9e3673909738b783db20',
+182 silly install resolved     _resolved: 'https://registry.npmjs.org/@types/react/-/react-18.3.9.tgz',
+182 silly install resolved     _from: '@types/react@latest'
+182 silly install resolved   },
+182 silly install resolved   {
+182 silly install resolved     name: '@types/node',
+182 silly install resolved     version: '22.7.0',
+182 silly install resolved     license: 'MIT',
+182 silly install resolved     _id: '@types/node@22.7.0',
+182 silly install resolved     maintainers: [ [Object] ],
+182 silly install resolved     contributors: [
+182 silly install resolved       [Object], [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object], [Object],
+182 silly install resolved       [Object], [Object], [Object]
+182 silly install resolved     ],
+182 silly install resolved     homepage: 'https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node',
+182 silly install resolved     dist: {
+182 silly install resolved       shasum: '670aa1874bc836863e5c116f9f2c32416ff27e1f',
+182 silly install resolved       tarball: 'https://registry.npmjs.org/@types/node/-/node-22.7.0.tgz',
+182 silly install resolved       fileCount: 66,
+182 silly install resolved       integrity: 'sha512-MOdOibwBs6KW1vfqz2uKMlxq5xAfAZ98SZjO8e3XnAbFnTJtAspqhWk7hrdSAs9/Y14ZWMiy7/MxMUzAOadYEw==',
+182 silly install resolved       signatures: [Array],
+182 silly install resolved       unpackedSize: 2229468
+182 silly install resolved     },
+182 silly install resolved     main: '',
+182 silly install resolved     types: 'index.d.ts',
+182 silly install resolved     scripts: {},
+182 silly install resolved     _npmUser: { name: 'types', email: 'ts-npm-types@microsoft.com' },
+182 silly install resolved     repository: {
+182 silly install resolved       url: 'https://github.com/DefinitelyTyped/DefinitelyTyped.git',
+182 silly install resolved       type: 'git',
+182 silly install resolved       directory: 'types/node'
+182 silly install resolved     },
+182 silly install resolved     description: 'TypeScript definitions for node',
+182 silly install resolved     directories: {},
+182 silly install resolved     dependencies: { 'undici-types': '~6.19.2' },
+182 silly install resolved     _hasShrinkwrap: false,
+182 silly install resolved     typeScriptVersion: '4.8',
+182 silly install resolved     _npmOperationalInternal: {
+182 silly install resolved       tmp: 'tmp/node_22.7.0_1727225780074_0.5934009823507247',
+182 silly install resolved       host: 's3://npm-registry-packages'
+182 silly install resolved     },
+182 silly install resolved     typesPublisherContentHash: '067d27779cf5362265af613cf9443a3b325093b3f6d8f87681436e663d5e5e04',
+182 silly install resolved     _shasum: '670aa1874bc836863e5c116f9f2c32416ff27e1f',
+182 silly install resolved     _resolved: 'https://registry.npmjs.org/@types/node/-/node-22.7.0.tgz',
+182 silly install resolved     _from: '@types/node@latest'
+182 silly install resolved   },
+182 silly install resolved   {
+182 silly install resolved     name: 'typescript',
+182 silly install resolved     version: '5.6.2',
+182 silly install resolved     keywords: [ 'TypeScript', 'Microsoft', 'compiler', 'language', 'javascript' ],
+182 silly install resolved     author: { name: 'Microsoft Corp.' },
+182 silly install resolved     license: 'Apache-2.0',
+182 silly install resolved     _id: 'typescript@5.6.2',
+182 silly install resolved     maintainers: [
+182 silly install resolved       [Object], [Object],
+182 silly install resolved       [Object], [Object],
+182 silly install resolved       [Object], [Object],
+182 silly install resolved       [Object], [Object]
+182 silly install resolved     ],
+182 silly install resolved     homepage: 'https://www.typescriptlang.org/',
+182 silly install resolved     bugs: { url: 'https://github.com/microsoft/TypeScript/issues' },
+182 silly install resolved     bin: { tsc: 'bin/tsc', tsserver: 'bin/tsserver' },
+182 silly install resolved     dist: {
+182 silly install resolved       shasum: 'd1de67b6bef77c41823f822df8f0b3bcff60a5a0',
+182 silly install resolved       tarball: 'https://registry.npmjs.org/typescript/-/typescript-5.6.2.tgz',
+182 silly install resolved       fileCount: 121,
+182 silly install resolved       integrity: 'sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==',
+182 silly install resolved       signatures: [Array],
+182 silly install resolved       unpackedSize: 22438432
+182 silly install resolved     },
+182 silly install resolved     main: './lib/typescript.js',
+182 silly install resolved     _from: 'typescript@latest',
+182 silly install resolved     volta: { npm: '8.19.4', node: '20.1.0' },
+182 silly install resolved     browser: {
+182 silly install resolved       fs: false,
+182 silly install resolved       os: false,
+182 silly install resolved       path: false,
+182 silly install resolved       buffer: false,
+182 silly install resolved       crypto: false,
+182 silly install resolved       inspector: false,
+182 silly install resolved       perf_hooks: false,
+182 silly install resolved       'source-map-support': false
+182 silly install resolved     },
+182 silly install resolved     engines: { node: '>=14.17' },
+182 silly install resolved     gitHead: 'a7e3374f13327483fbe94e32806d65785b0b6cda',
+182 silly install resolved     scripts: {
+182 silly install resolved       gulp: 'hereby',
+182 silly install resolved       knip: 'hereby knip',
+182 silly install resolved       lint: 'hereby lint',
+182 silly install resolved       test: 'hereby runtests-parallel --light=false',
+182 silly install resolved       build: 'npm run build:compiler && npm run build:tests',
+182 silly install resolved       clean: 'hereby clean',
+182 silly install resolved       format: 'dprint fmt',
+182 silly install resolved       'build:tests': 'hereby tests',
+182 silly install resolved       'setup-hooks': 'node scripts/link-hooks.mjs',
+182 silly install resolved       'build:compiler': 'hereby local',
+182 silly install resolved       'test:eslint-rules': 'hereby run-eslint-rules-tests',
+182 silly install resolved       'build:tests:notypecheck': 'hereby tests --no-typecheck'
+182 silly install resolved     },
+182 silly install resolved     typings: './lib/typescript.d.ts',
+182 silly install resolved     _npmUser: { name: 'typescript-bot', email: 'typescript@microsoft.com' },
+182 silly install resolved     _resolved: 'https://registry.npmjs.org/typescript/-/typescript-5.6.2.tgz',
+182 silly install resolved     overrides: { 'typescript@*': '$typescript' },
+182 silly install resolved     _integrity: 'sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==',
+182 silly install resolved     repository: {
+182 silly install resolved       url: 'git+https://github.com/microsoft/TypeScript.git',
+182 silly install resolved       type: 'git'
+182 silly install resolved     },
+182 silly install resolved     _npmVersion: '10.7.0',
+182 silly install resolved     description: 'TypeScript is a language for application scale JavaScript development',
+182 silly install resolved     directories: {},
+182 silly install resolved     _nodeVersion: '18.20.4',
+182 silly install resolved     _hasShrinkwrap: false,
+182 silly install resolved     packageManager: 'npm@8.19.4',
+182 silly install resolved     devDependencies: {
+182 silly install resolved       c8: '^10.1.2',
+182 silly install resolved       ms: '^2.1.3',
+182 silly install resolved       chai: '^4.5.0',
+182 silly install resolved       diff: '^5.2.0',
+182 silly install resolved       glob: '^10.4.5',
+182 silly install resolved       knip: '^5.27.2',
+182 silly install resolved       chalk: '^4.1.2',
+182 silly install resolved       mocha: '^10.7.3',
+182 silly install resolved       tslib: '^2.6.3',
+182 silly install resolved       which: '^3.0.1',
+182 silly install resolved       dprint: '^0.47.2',
+182 silly install resolved       eslint: '^9.9.0',
+182 silly install resolved       hereby: '^1.9.0',
+182 silly install resolved       esbuild: '^0.23.0',
+182 silly install resolved       globals: '^15.9.0',
+182 silly install resolved       chokidar: '^3.6.0',
+182 silly install resolved       minimist: '^1.2.8',
+182 silly install resolved       '@types/ms': '^0.7.34',
+182 silly install resolved       '@eslint/js': '^9.9.0',
+182 silly install resolved       'node-fetch': '^3.3.2',
+182 silly install resolved       playwright: '^1.46.0',
+182 silly install resolved       typescript: '^5.5.4',
+182 silly install resolved       '@types/chai': '^4.3.17',
+182 silly install resolved       '@types/diff': '^5.2.1',
+182 silly install resolved       '@types/node': 'latest',
+182 silly install resolved       '@types/mocha': '^10.0.7',
+182 silly install resolved       '@types/which': '^3.0.4',
+182 silly install resolved       'jsonc-parser': '^3.3.1',
+182 silly install resolved       '@octokit/rest': '^21.0.1',
+182 silly install resolved       '@types/minimist': '^1.2.5',
+182 silly install resolved       'fast-xml-parser': '^4.4.1',
+182 silly install resolved       '@dprint/formatter': '^0.4.1',
+182 silly install resolved       '@esfx/canceltoken': '^1.0.0',
+182 silly install resolved       'typescript-eslint': '^8.1.0',
+182 silly install resolved       '@dprint/typescript': '0.91.6',
+182 silly install resolved       'source-map-support': '^0.5.21',
+182 silly install resolved       'eslint-plugin-regexp': '^2.6.0',
+182 silly install resolved       'azure-devops-node-api': '^14.0.2',
+182 silly install resolved       '@typescript-eslint/utils': '^8.1.0',
+182 silly install resolved       '@types/source-map-support': '^0.5.10',
+182 silly install resolved       'monocart-coverage-reports': '^2.10.2',
+182 silly install resolved       '@typescript-eslint/type-utils': '^8.1.0',
+182 silly install resolved       '@typescript-eslint/rule-tester': '^8.1.0',
+182 silly install resolved       'mocha-fivemat-progress-reporter': '^0.1.0',
+182 silly install resolved       'eslint-formatter-autolinkable-stylish': '^1.4.0'
+182 silly install resolved     },
+182 silly install resolved     _npmOperationalInternal: {
+182 silly install resolved       tmp: 'tmp/typescript_5.6.2_1725898599923_0.019654876664713772',
+182 silly install resolved       host: 's3://npm-registry-packages'
+182 silly install resolved     },
+182 silly install resolved     _shasum: 'd1de67b6bef77c41823f822df8f0b3bcff60a5a0'
+182 silly install resolved   }
+182 silly install resolved ]
+183 info install @types/react@18.3.9 into C:\Users\llVll\Desktop\Projects\TMG Portfolio
+184 info install @types/node@22.7.0 into C:\Users\llVll\Desktop\Projects\TMG Portfolio
+185 info install typescript@5.6.2 into C:\Users\llVll\Desktop\Projects\TMG Portfolio
+186 info installOne @types/react@18.3.9
+187 verbose installOne of @types/react to C:\Users\llVll\Desktop\Projects\TMG Portfolio not in flight; installing
+188 verbose correctMkdir C:\Users\llVll\AppData\Local\npm-cache\_locks correctMkdir not in flight; initializing
+189 info installOne @types/node@22.7.0
+190 verbose installOne of @types/node to C:\Users\llVll\Desktop\Projects\TMG Portfolio not in flight; installing
+191 verbose correctMkdir C:\Users\llVll\AppData\Local\npm-cache\_locks correctMkdir already in flight; waiting
+192 info installOne typescript@5.6.2
+193 verbose installOne of typescript to C:\Users\llVll\Desktop\Projects\TMG Portfolio not in flight; installing
+194 verbose correctMkdir C:\Users\llVll\AppData\Local\npm-cache\_locks correctMkdir already in flight; waiting
+195 verbose makeDirectory C:\Users\llVll\AppData\Local\npm-cache\_locks creation not in flight; initializing
+196 verbose makeCacheDir UID & GID are irrelevant on win32
+197 verbose lock using C:\Users\llVll\AppData\Local\npm-cache\_locks\types-react-d27ae278e7f20b43.lock for C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react
+198 silly install write writing @types/react 18.3.9 to C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react
+199 verbose lock using C:\Users\llVll\AppData\Local\npm-cache\_locks\types-node-56d7205978987680.lock for C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\node
+200 verbose lock using C:\Users\llVll\AppData\Local\npm-cache\_locks\typescript-96dfff4d640cabf7.lock for C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\typescript
+201 silly install write writing @types/node 22.7.0 to C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\node
+202 silly install write writing typescript 5.6.2 to C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\typescript
+203 verbose unbuild node_modules\@types\react
+204 verbose unbuild node_modules\@types\node
+205 silly gentlyRm C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react is being purged from base C:\Users\llVll\Desktop\Projects\TMG Portfolio
+206 verbose gentlyRm don't care about contents; nuking C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react
+207 verbose unbuild node_modules\typescript
+208 verbose tar unpack C:\Users\llVll\AppData\Local\npm-cache\@types\react\18.3.9\package.tgz
+209 verbose tar unpacking to C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react
+210 silly gentlyRm C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react is being purged
+211 verbose gentlyRm don't care about contents; nuking C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react
+212 silly gentlyRm C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\node is being purged from base C:\Users\llVll\Desktop\Projects\TMG Portfolio
+213 verbose gentlyRm don't care about contents; nuking C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\node
+214 silly gunzTarPerm modes [ '777', '666' ]
+215 verbose tar unpack C:\Users\llVll\AppData\Local\npm-cache\@types\node\22.7.0\package.tgz
+216 verbose tar unpacking to C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\node
+217 silly gentlyRm C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\node is being purged
+218 verbose gentlyRm don't care about contents; nuking C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\node
+219 silly gunzTarPerm modes [ '777', '666' ]
+220 silly gentlyRm C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\typescript is being purged from base C:\Users\llVll\Desktop\Projects\TMG Portfolio
+221 verbose gentlyRm don't care about contents; nuking C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\typescript
+222 verbose tar unpack C:\Users\llVll\AppData\Local\npm-cache\typescript\5.6.2\package.tgz
+223 verbose tar unpacking to C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\typescript
+224 silly gentlyRm C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\typescript is being purged
+225 verbose gentlyRm don't care about contents; nuking C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\typescript
+226 silly gunzTarPerm modes [ '777', '666' ]
+227 silly gunzTarPerm extractEntry
+228 silly gunzTarPerm modified mode [ '', 493, 511 ]
+229 silly gunzTarPerm extractEntry
+230 silly gunzTarPerm modified mode [ '', 493, 511 ]
+231 silly gunzTarPerm extractEntry bin/tsc
+232 silly gunzTarPerm modified mode [ 'bin/tsc', 493, 511 ]
+233 silly gunzTarPerm extractEntry
+234 silly gunzTarPerm modified mode [ '', 420, 438 ]
+235 silly gunzTarPerm extractEntry
+236 silly gunzTarPerm modified mode [ '', 420, 438 ]
+237 silly gunzTarPerm extractEntry
+238 silly gunzTarPerm modified mode [ '', 420, 438 ]
+239 silly gunzTarPerm extractEntry
+240 silly gunzTarPerm modified mode [ '', 420, 438 ]
+241 silly gunzTarPerm extractEntry
+242 silly gunzTarPerm modified mode [ '', 420, 438 ]
+243 silly gunzTarPerm extractEntry
+244 silly gunzTarPerm modified mode [ '', 493, 511 ]
+245 silly gunzTarPerm extractEntry bin/tsserver
+246 silly gunzTarPerm modified mode [ 'bin/tsserver', 493, 511 ]
+247 silly gunzTarPerm extractEntry lib/cancellationToken.js
+248 silly gunzTarPerm modified mode [ 'lib/cancellationToken.js', 420, 438 ]
+249 silly gunzTarPerm extractEntry
+250 silly gunzTarPerm modified mode [ '', 420, 438 ]
+251 silly gunzTarPerm extractEntry
+252 silly gunzTarPerm modified mode [ '', 420, 438 ]
+253 silly gunzTarPerm extractEntry
+254 silly gunzTarPerm modified mode [ '', 420, 438 ]
+255 silly gunzTarPerm extractEntry
+256 silly gunzTarPerm modified mode [ '', 420, 438 ]
+257 silly gunzTarPerm extractEntry lib/tsc.js
+258 silly gunzTarPerm modified mode [ 'lib/tsc.js', 420, 438 ]
+259 silly gunzTarPerm extractEntry
+260 silly gunzTarPerm modified mode [ '', 420, 438 ]
+261 silly gunzTarPerm extractEntry
+262 silly gunzTarPerm modified mode [ '', 420, 438 ]
+263 silly gunzTarPerm extractEntry
+264 silly gunzTarPerm modified mode [ '', 420, 438 ]
+265 silly gunzTarPerm extractEntry
+266 silly gunzTarPerm modified mode [ '', 420, 438 ]
+267 silly gunzTarPerm extractEntry
+268 silly gunzTarPerm modified mode [ '', 420, 438 ]
+269 silly gunzTarPerm extractEntry
+270 silly gunzTarPerm modified mode [ '', 420, 438 ]
+271 silly gunzTarPerm extractEntry
+272 silly gunzTarPerm modified mode [ '', 420, 438 ]
+273 silly gunzTarPerm extractEntry
+274 silly gunzTarPerm modified mode [ '', 420, 438 ]
+275 silly gunzTarPerm extractEntry
+276 silly gunzTarPerm modified mode [ '', 420, 438 ]
+277 silly gunzTarPerm extractEntry
+278 silly gunzTarPerm modified mode [ '', 493, 511 ]
+279 silly gunzTarPerm extractEntry
+280 silly gunzTarPerm modified mode [ '', 420, 438 ]
+281 silly gunzTarPerm extractEntry
+282 silly gunzTarPerm modified mode [ '', 420, 438 ]
+283 silly gunzTarPerm extractEntry
+284 silly gunzTarPerm modified mode [ '', 420, 438 ]
+285 silly gunzTarPerm extractEntry
+286 silly gunzTarPerm modified mode [ '', 420, 438 ]
+287 silly gunzTarPerm extractEntry
+288 silly gunzTarPerm modified mode [ '', 420, 438 ]
+289 silly gunzTarPerm extractEntry
+290 silly gunzTarPerm modified mode [ '', 420, 438 ]
+291 silly gunzTarPerm extractEntry
+292 silly gunzTarPerm modified mode [ '', 493, 511 ]
+293 silly gunzTarPerm extractEntry
+294 silly gunzTarPerm modified mode [ '', 420, 438 ]
+295 silly gunzTarPerm extractEntry
+296 silly gunzTarPerm modified mode [ '', 420, 438 ]
+297 silly gunzTarPerm extractEntry
+298 silly gunzTarPerm modified mode [ '', 420, 438 ]
+299 silly gunzTarPerm extractEntry
+300 silly gunzTarPerm modified mode [ '', 420, 438 ]
+301 silly gunzTarPerm extractEntry
+302 silly gunzTarPerm modified mode [ '', 420, 438 ]
+303 silly gunzTarPerm extractEntry
+304 silly gunzTarPerm modified mode [ '', 420, 438 ]
+305 silly gunzTarPerm extractEntry
+306 silly gunzTarPerm modified mode [ '', 493, 511 ]
+307 silly gunzTarPerm extractEntry
+308 silly gunzTarPerm modified mode [ '', 420, 438 ]
+309 silly gunzTarPerm extractEntry
+310 silly gunzTarPerm modified mode [ '', 420, 438 ]
+311 silly gunzTarPerm extractEntry
+312 silly gunzTarPerm modified mode [ '', 420, 438 ]
+313 silly gunzTarPerm extractEntry
+314 silly gunzTarPerm modified mode [ '', 420, 438 ]
+315 silly gunzTarPerm extractEntry lib/tsserver.js
+316 silly gunzTarPerm modified mode [ 'lib/tsserver.js', 420, 438 ]
+317 silly gunzTarPerm extractEntry
+318 silly gunzTarPerm modified mode [ '', 420, 438 ]
+319 silly gunzTarPerm extractEntry lib/tsserverlibrary.js
+320 silly gunzTarPerm modified mode [ 'lib/tsserverlibrary.js', 420, 438 ]
+321 silly gunzTarPerm extractEntry
+322 silly gunzTarPerm modified mode [ '', 420, 438 ]
+323 silly gunzTarPerm extractEntry lib/typescript.js
+324 silly gunzTarPerm modified mode [ 'lib/typescript.js', 420, 438 ]
+325 silly gunzTarPerm extractEntry
+326 silly gunzTarPerm modified mode [ '', 420, 438 ]
+327 silly gunzTarPerm extractEntry
+328 silly gunzTarPerm modified mode [ '', 420, 438 ]
+329 silly gunzTarPerm extractEntry
+330 silly gunzTarPerm modified mode [ '', 420, 438 ]
+331 silly gunzTarPerm extractEntry
+332 silly gunzTarPerm modified mode [ '', 420, 438 ]
+333 verbose unlock done using C:\Users\llVll\AppData\Local\npm-cache\_locks\types-react-d27ae278e7f20b43.lock for C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react
+334 silly gunzTarPerm extractEntry
+335 silly gunzTarPerm modified mode [ '', 420, 438 ]
+336 silly gunzTarPerm extractEntry
+337 silly gunzTarPerm modified mode [ '', 420, 438 ]
+338 silly gunzTarPerm extractEntry
+339 silly gunzTarPerm modified mode [ '', 420, 438 ]
+340 silly gunzTarPerm extractEntry
+341 silly gunzTarPerm modified mode [ '', 420, 438 ]
+342 silly gunzTarPerm extractEntry
+343 silly gunzTarPerm modified mode [ '', 420, 438 ]
+344 silly gunzTarPerm extractEntry
+345 silly gunzTarPerm modified mode [ '', 420, 438 ]
+346 silly gunzTarPerm extractEntry
+347 silly gunzTarPerm modified mode [ '', 420, 438 ]
+348 silly gunzTarPerm extractEntry
+349 silly gunzTarPerm modified mode [ '', 420, 438 ]
+350 silly gunzTarPerm extractEntry
+351 silly gunzTarPerm modified mode [ '', 493, 511 ]
+352 silly gunzTarPerm extractEntry
+353 silly gunzTarPerm modified mode [ '', 420, 438 ]
+354 silly gunzTarPerm extractEntry
+355 silly gunzTarPerm modified mode [ '', 420, 438 ]
+356 silly gunzTarPerm extractEntry
+357 silly gunzTarPerm modified mode [ '', 420, 438 ]
+358 silly gunzTarPerm extractEntry
+359 silly gunzTarPerm modified mode [ '', 420, 438 ]
+360 silly gunzTarPerm extractEntry
+361 silly gunzTarPerm modified mode [ '', 493, 511 ]
+362 silly gunzTarPerm extractEntry
+363 silly gunzTarPerm modified mode [ '', 420, 438 ]
+364 silly gunzTarPerm extractEntry
+365 silly gunzTarPerm modified mode [ '', 420, 438 ]
+366 silly gunzTarPerm extractEntry
+367 silly gunzTarPerm modified mode [ '', 420, 438 ]
+368 silly gunzTarPerm extractEntry
+369 silly gunzTarPerm modified mode [ '', 493, 511 ]
+370 silly gunzTarPerm extractEntry lib/typingsInstaller.js
+371 silly gunzTarPerm modified mode [ 'lib/typingsInstaller.js', 420, 438 ]
+372 silly gunzTarPerm extractEntry lib/watchGuard.js
+373 silly gunzTarPerm modified mode [ 'lib/watchGuard.js', 420, 438 ]
+374 silly gunzTarPerm extractEntry lib/cs/diagnosticMessages.generated.json
+375 silly gunzTarPerm modified mode [ 'lib/cs/diagnosticMessages.generated.json', 420, 438 ]
+376 silly gunzTarPerm extractEntry lib/de/diagnosticMessages.generated.json
+377 silly gunzTarPerm modified mode [ 'lib/de/diagnosticMessages.generated.json', 420, 438 ]
+378 silly gunzTarPerm extractEntry lib/es/diagnosticMessages.generated.json
+379 silly gunzTarPerm modified mode [ 'lib/es/diagnosticMessages.generated.json', 420, 438 ]
+380 silly gunzTarPerm extractEntry lib/fr/diagnosticMessages.generated.json
+381 silly gunzTarPerm modified mode [ 'lib/fr/diagnosticMessages.generated.json', 420, 438 ]
+382 silly gunzTarPerm extractEntry lib/it/diagnosticMessages.generated.json
+383 silly gunzTarPerm modified mode [ 'lib/it/diagnosticMessages.generated.json', 420, 438 ]
+384 silly gunzTarPerm extractEntry lib/ja/diagnosticMessages.generated.json
+385 silly gunzTarPerm modified mode [ 'lib/ja/diagnosticMessages.generated.json', 420, 438 ]
+386 silly gunzTarPerm extractEntry lib/ko/diagnosticMessages.generated.json
+387 silly gunzTarPerm modified mode [ 'lib/ko/diagnosticMessages.generated.json', 420, 438 ]
+388 silly gunzTarPerm extractEntry lib/pl/diagnosticMessages.generated.json
+389 silly gunzTarPerm modified mode [ 'lib/pl/diagnosticMessages.generated.json', 420, 438 ]
+390 silly gunzTarPerm extractEntry
+391 silly gunzTarPerm modified mode [ '', 420, 438 ]
+392 silly gunzTarPerm extractEntry
+393 silly gunzTarPerm modified mode [ '', 420, 438 ]
+394 silly gunzTarPerm extractEntry
+395 silly gunzTarPerm modified mode [ '', 420, 438 ]
+396 silly gunzTarPerm extractEntry lib/pt-br/diagnosticMessages.generated.json
+397 silly gunzTarPerm modified mode [ 'lib/pt-br/diagnosticMessages.generated.json', 420, 438 ]
+398 silly gunzTarPerm extractEntry lib/ru/diagnosticMessages.generated.json
+399 silly gunzTarPerm modified mode [ 'lib/ru/diagnosticMessages.generated.json', 420, 438 ]
+400 silly gunzTarPerm extractEntry
+401 silly gunzTarPerm modified mode [ '', 420, 438 ]
+402 silly gunzTarPerm extractEntry
+403 silly gunzTarPerm modified mode [ '', 420, 438 ]
+404 silly gunzTarPerm extractEntry lib/tr/diagnosticMessages.generated.json
+405 silly gunzTarPerm modified mode [ 'lib/tr/diagnosticMessages.generated.json', 420, 438 ]
+406 silly gunzTarPerm extractEntry lib/zh-cn/diagnosticMessages.generated.json
+407 silly gunzTarPerm modified mode [ 'lib/zh-cn/diagnosticMessages.generated.json', 420, 438 ]
+408 silly gunzTarPerm extractEntry
+409 silly gunzTarPerm modified mode [ '', 420, 438 ]
+410 silly gunzTarPerm extractEntry
+411 silly gunzTarPerm modified mode [ '', 420, 438 ]
+412 silly gunzTarPerm extractEntry lib/zh-tw/diagnosticMessages.generated.json
+413 silly gunzTarPerm modified mode [ 'lib/zh-tw/diagnosticMessages.generated.json', 420, 438 ]
+414 silly gunzTarPerm extractEntry package.json
+415 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+416 silly gunzTarPerm extractEntry lib/typesMap.json
+417 silly gunzTarPerm modified mode [ 'lib/typesMap.json', 420, 438 ]
+418 silly gunzTarPerm extractEntry README.md
+419 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+420 silly gunzTarPerm extractEntry SECURITY.md
+421 silly gunzTarPerm modified mode [ 'SECURITY.md', 420, 438 ]
+422 silly gunzTarPerm extractEntry lib/lib.d.ts
+423 silly gunzTarPerm modified mode [ 'lib/lib.d.ts', 420, 438 ]
+424 silly gunzTarPerm extractEntry lib/lib.decorators.d.ts
+425 silly gunzTarPerm modified mode [ 'lib/lib.decorators.d.ts', 420, 438 ]
+426 silly gunzTarPerm extractEntry lib/lib.decorators.legacy.d.ts
+427 silly gunzTarPerm modified mode [ 'lib/lib.decorators.legacy.d.ts', 420, 438 ]
+428 silly gunzTarPerm extractEntry lib/lib.dom.asynciterable.d.ts
+429 silly gunzTarPerm modified mode [ 'lib/lib.dom.asynciterable.d.ts', 420, 438 ]
+430 silly gunzTarPerm extractEntry lib/lib.dom.d.ts
+431 silly gunzTarPerm modified mode [ 'lib/lib.dom.d.ts', 420, 438 ]
+432 silly gunzTarPerm extractEntry
+433 silly gunzTarPerm modified mode [ '', 420, 438 ]
+434 silly gunzTarPerm extractEntry
+435 silly gunzTarPerm modified mode [ '', 420, 438 ]
+436 silly gunzTarPerm extractEntry
+437 silly gunzTarPerm modified mode [ '', 420, 438 ]
+438 silly gunzTarPerm extractEntry lib/lib.dom.iterable.d.ts
+439 silly gunzTarPerm modified mode [ 'lib/lib.dom.iterable.d.ts', 420, 438 ]
+440 silly gunzTarPerm extractEntry lib/lib.es2015.collection.d.ts
+441 silly gunzTarPerm modified mode [ 'lib/lib.es2015.collection.d.ts', 420, 438 ]
+442 silly gunzTarPerm extractEntry lib/lib.es2015.core.d.ts
+443 silly gunzTarPerm modified mode [ 'lib/lib.es2015.core.d.ts', 420, 438 ]
+444 silly gunzTarPerm extractEntry lib/lib.es2015.d.ts
+445 silly gunzTarPerm modified mode [ 'lib/lib.es2015.d.ts', 420, 438 ]
+446 silly gunzTarPerm extractEntry lib/lib.es2015.generator.d.ts
+447 silly gunzTarPerm modified mode [ 'lib/lib.es2015.generator.d.ts', 420, 438 ]
+448 silly gunzTarPerm extractEntry lib/lib.es2015.iterable.d.ts
+449 silly gunzTarPerm modified mode [ 'lib/lib.es2015.iterable.d.ts', 420, 438 ]
+450 silly gunzTarPerm extractEntry lib/lib.es2015.promise.d.ts
+451 silly gunzTarPerm modified mode [ 'lib/lib.es2015.promise.d.ts', 420, 438 ]
+452 silly gunzTarPerm extractEntry lib/lib.es2015.proxy.d.ts
+453 silly gunzTarPerm modified mode [ 'lib/lib.es2015.proxy.d.ts', 420, 438 ]
+454 silly gunzTarPerm extractEntry lib/lib.es2015.reflect.d.ts
+455 silly gunzTarPerm modified mode [ 'lib/lib.es2015.reflect.d.ts', 420, 438 ]
+456 silly gunzTarPerm extractEntry lib/lib.es2015.symbol.d.ts
+457 silly gunzTarPerm modified mode [ 'lib/lib.es2015.symbol.d.ts', 420, 438 ]
+458 silly gunzTarPerm extractEntry lib/lib.es2015.symbol.wellknown.d.ts
+459 silly gunzTarPerm modified mode [ 'lib/lib.es2015.symbol.wellknown.d.ts', 420, 438 ]
+460 silly gunzTarPerm extractEntry lib/lib.es2016.array.include.d.ts
+461 silly gunzTarPerm modified mode [ 'lib/lib.es2016.array.include.d.ts', 420, 438 ]
+462 silly gunzTarPerm extractEntry lib/lib.es2016.d.ts
+463 silly gunzTarPerm modified mode [ 'lib/lib.es2016.d.ts', 420, 438 ]
+464 silly gunzTarPerm extractEntry lib/lib.es2016.full.d.ts
+465 silly gunzTarPerm modified mode [ 'lib/lib.es2016.full.d.ts', 420, 438 ]
+466 silly gunzTarPerm extractEntry lib/lib.es2016.intl.d.ts
+467 silly gunzTarPerm modified mode [ 'lib/lib.es2016.intl.d.ts', 420, 438 ]
+468 silly gunzTarPerm extractEntry lib/lib.es2017.d.ts
+469 silly gunzTarPerm modified mode [ 'lib/lib.es2017.d.ts', 420, 438 ]
+470 silly gunzTarPerm extractEntry lib/lib.es2017.date.d.ts
+471 silly gunzTarPerm modified mode [ 'lib/lib.es2017.date.d.ts', 420, 438 ]
+472 silly gunzTarPerm extractEntry lib/lib.es2017.full.d.ts
+473 silly gunzTarPerm modified mode [ 'lib/lib.es2017.full.d.ts', 420, 438 ]
+474 silly gunzTarPerm extractEntry lib/lib.es2017.intl.d.ts
+475 silly gunzTarPerm modified mode [ 'lib/lib.es2017.intl.d.ts', 420, 438 ]
+476 silly gunzTarPerm extractEntry lib/lib.es2017.object.d.ts
+477 silly gunzTarPerm modified mode [ 'lib/lib.es2017.object.d.ts', 420, 438 ]
+478 silly gunzTarPerm extractEntry lib/lib.es2017.sharedmemory.d.ts
+479 silly gunzTarPerm modified mode [ 'lib/lib.es2017.sharedmemory.d.ts', 420, 438 ]
+480 silly gunzTarPerm extractEntry lib/lib.es2017.string.d.ts
+481 silly gunzTarPerm modified mode [ 'lib/lib.es2017.string.d.ts', 420, 438 ]
+482 silly gunzTarPerm extractEntry lib/lib.es2017.typedarrays.d.ts
+483 silly gunzTarPerm modified mode [ 'lib/lib.es2017.typedarrays.d.ts', 420, 438 ]
+484 silly gunzTarPerm extractEntry lib/lib.es2018.asyncgenerator.d.ts
+485 silly gunzTarPerm modified mode [ 'lib/lib.es2018.asyncgenerator.d.ts', 420, 438 ]
+486 silly gunzTarPerm extractEntry lib/lib.es2018.asynciterable.d.ts
+487 silly gunzTarPerm modified mode [ 'lib/lib.es2018.asynciterable.d.ts', 420, 438 ]
+488 silly gunzTarPerm extractEntry lib/lib.es2018.d.ts
+489 silly gunzTarPerm modified mode [ 'lib/lib.es2018.d.ts', 420, 438 ]
+490 silly gunzTarPerm extractEntry lib/lib.es2018.full.d.ts
+491 silly gunzTarPerm modified mode [ 'lib/lib.es2018.full.d.ts', 420, 438 ]
+492 silly gunzTarPerm extractEntry lib/lib.es2018.intl.d.ts
+493 silly gunzTarPerm modified mode [ 'lib/lib.es2018.intl.d.ts', 420, 438 ]
+494 silly gunzTarPerm extractEntry lib/lib.es2018.promise.d.ts
+495 silly gunzTarPerm modified mode [ 'lib/lib.es2018.promise.d.ts', 420, 438 ]
+496 silly gunzTarPerm extractEntry lib/lib.es2018.regexp.d.ts
+497 silly gunzTarPerm modified mode [ 'lib/lib.es2018.regexp.d.ts', 420, 438 ]
+498 silly gunzTarPerm extractEntry lib/lib.es2019.array.d.ts
+499 silly gunzTarPerm modified mode [ 'lib/lib.es2019.array.d.ts', 420, 438 ]
+500 silly gunzTarPerm extractEntry lib/lib.es2019.d.ts
+501 silly gunzTarPerm modified mode [ 'lib/lib.es2019.d.ts', 420, 438 ]
+502 silly gunzTarPerm extractEntry lib/lib.es2019.full.d.ts
+503 silly gunzTarPerm modified mode [ 'lib/lib.es2019.full.d.ts', 420, 438 ]
+504 silly gunzTarPerm extractEntry lib/lib.es2019.intl.d.ts
+505 silly gunzTarPerm modified mode [ 'lib/lib.es2019.intl.d.ts', 420, 438 ]
+506 silly gunzTarPerm extractEntry lib/lib.es2019.object.d.ts
+507 silly gunzTarPerm modified mode [ 'lib/lib.es2019.object.d.ts', 420, 438 ]
+508 silly gunzTarPerm extractEntry lib/lib.es2019.string.d.ts
+509 silly gunzTarPerm modified mode [ 'lib/lib.es2019.string.d.ts', 420, 438 ]
+510 silly gunzTarPerm extractEntry lib/lib.es2019.symbol.d.ts
+511 silly gunzTarPerm modified mode [ 'lib/lib.es2019.symbol.d.ts', 420, 438 ]
+512 silly gunzTarPerm extractEntry lib/lib.es2020.bigint.d.ts
+513 silly gunzTarPerm modified mode [ 'lib/lib.es2020.bigint.d.ts', 420, 438 ]
+514 silly gunzTarPerm extractEntry lib/lib.es2020.d.ts
+515 silly gunzTarPerm modified mode [ 'lib/lib.es2020.d.ts', 420, 438 ]
+516 silly gunzTarPerm extractEntry lib/lib.es2020.date.d.ts
+517 silly gunzTarPerm modified mode [ 'lib/lib.es2020.date.d.ts', 420, 438 ]
+518 silly gunzTarPerm extractEntry lib/lib.es2020.full.d.ts
+519 silly gunzTarPerm modified mode [ 'lib/lib.es2020.full.d.ts', 420, 438 ]
+520 silly gunzTarPerm extractEntry lib/lib.es2020.intl.d.ts
+521 silly gunzTarPerm modified mode [ 'lib/lib.es2020.intl.d.ts', 420, 438 ]
+522 silly gunzTarPerm extractEntry lib/lib.es2020.number.d.ts
+523 silly gunzTarPerm modified mode [ 'lib/lib.es2020.number.d.ts', 420, 438 ]
+524 silly gunzTarPerm extractEntry lib/lib.es2020.promise.d.ts
+525 silly gunzTarPerm modified mode [ 'lib/lib.es2020.promise.d.ts', 420, 438 ]
+526 silly gunzTarPerm extractEntry
+527 silly gunzTarPerm modified mode [ '', 420, 438 ]
+528 silly gunzTarPerm extractEntry lib/lib.es2020.sharedmemory.d.ts
+529 silly gunzTarPerm modified mode [ 'lib/lib.es2020.sharedmemory.d.ts', 420, 438 ]
+530 silly gunzTarPerm extractEntry lib/lib.es2020.string.d.ts
+531 silly gunzTarPerm modified mode [ 'lib/lib.es2020.string.d.ts', 420, 438 ]
+532 silly gunzTarPerm extractEntry lib/lib.es2020.symbol.wellknown.d.ts
+533 silly gunzTarPerm modified mode [ 'lib/lib.es2020.symbol.wellknown.d.ts', 420, 438 ]
+534 silly gunzTarPerm extractEntry lib/lib.es2021.d.ts
+535 silly gunzTarPerm modified mode [ 'lib/lib.es2021.d.ts', 420, 438 ]
+536 silly gunzTarPerm extractEntry lib/lib.es2021.full.d.ts
+537 silly gunzTarPerm modified mode [ 'lib/lib.es2021.full.d.ts', 420, 438 ]
+538 silly gunzTarPerm extractEntry lib/lib.es2021.intl.d.ts
+539 silly gunzTarPerm modified mode [ 'lib/lib.es2021.intl.d.ts', 420, 438 ]
+540 silly gunzTarPerm extractEntry lib/lib.es2021.promise.d.ts
+541 silly gunzTarPerm modified mode [ 'lib/lib.es2021.promise.d.ts', 420, 438 ]
+542 silly gunzTarPerm extractEntry lib/lib.es2021.string.d.ts
+543 silly gunzTarPerm modified mode [ 'lib/lib.es2021.string.d.ts', 420, 438 ]
+544 silly gunzTarPerm extractEntry lib/lib.es2021.weakref.d.ts
+545 silly gunzTarPerm modified mode [ 'lib/lib.es2021.weakref.d.ts', 420, 438 ]
+546 silly gunzTarPerm extractEntry
+547 silly gunzTarPerm modified mode [ '', 420, 438 ]
+548 silly gunzTarPerm extractEntry
+549 silly gunzTarPerm modified mode [ '', 420, 438 ]
+550 silly gunzTarPerm extractEntry lib/lib.es2022.array.d.ts
+551 silly gunzTarPerm modified mode [ 'lib/lib.es2022.array.d.ts', 420, 438 ]
+552 silly gunzTarPerm extractEntry lib/lib.es2022.d.ts
+553 silly gunzTarPerm modified mode [ 'lib/lib.es2022.d.ts', 420, 438 ]
+554 silly gunzTarPerm extractEntry lib/lib.es2022.error.d.ts
+555 silly gunzTarPerm modified mode [ 'lib/lib.es2022.error.d.ts', 420, 438 ]
+556 silly gunzTarPerm extractEntry lib/lib.es2022.full.d.ts
+557 silly gunzTarPerm modified mode [ 'lib/lib.es2022.full.d.ts', 420, 438 ]
+558 silly gunzTarPerm extractEntry lib/lib.es2022.intl.d.ts
+559 silly gunzTarPerm modified mode [ 'lib/lib.es2022.intl.d.ts', 420, 438 ]
+560 silly gunzTarPerm extractEntry lib/lib.es2022.object.d.ts
+561 silly gunzTarPerm modified mode [ 'lib/lib.es2022.object.d.ts', 420, 438 ]
+562 silly gunzTarPerm extractEntry lib/lib.es2022.regexp.d.ts
+563 silly gunzTarPerm modified mode [ 'lib/lib.es2022.regexp.d.ts', 420, 438 ]
+564 silly gunzTarPerm extractEntry lib/lib.es2022.sharedmemory.d.ts
+565 silly gunzTarPerm modified mode [ 'lib/lib.es2022.sharedmemory.d.ts', 420, 438 ]
+566 silly gunzTarPerm extractEntry lib/lib.es2022.string.d.ts
+567 silly gunzTarPerm modified mode [ 'lib/lib.es2022.string.d.ts', 420, 438 ]
+568 silly gunzTarPerm extractEntry lib/lib.es2023.array.d.ts
+569 silly gunzTarPerm modified mode [ 'lib/lib.es2023.array.d.ts', 420, 438 ]
+570 silly gunzTarPerm extractEntry lib/lib.es2023.collection.d.ts
+571 silly gunzTarPerm modified mode [ 'lib/lib.es2023.collection.d.ts', 420, 438 ]
+572 silly gunzTarPerm extractEntry lib/lib.es2023.d.ts
+573 silly gunzTarPerm modified mode [ 'lib/lib.es2023.d.ts', 420, 438 ]
+574 silly gunzTarPerm extractEntry lib/lib.es2023.full.d.ts
+575 silly gunzTarPerm modified mode [ 'lib/lib.es2023.full.d.ts', 420, 438 ]
+576 silly gunzTarPerm extractEntry lib/lib.es2023.intl.d.ts
+577 silly gunzTarPerm modified mode [ 'lib/lib.es2023.intl.d.ts', 420, 438 ]
+578 silly gunzTarPerm extractEntry lib/lib.es5.d.ts
+579 silly gunzTarPerm modified mode [ 'lib/lib.es5.d.ts', 420, 438 ]
+580 silly gunzTarPerm extractEntry
+581 silly gunzTarPerm modified mode [ '', 420, 438 ]
+582 silly gunzTarPerm extractEntry lib/lib.es6.d.ts
+583 silly gunzTarPerm modified mode [ 'lib/lib.es6.d.ts', 420, 438 ]
+584 silly gunzTarPerm extractEntry lib/lib.esnext.array.d.ts
+585 silly gunzTarPerm modified mode [ 'lib/lib.esnext.array.d.ts', 420, 438 ]
+586 silly gunzTarPerm extractEntry lib/lib.esnext.collection.d.ts
+587 silly gunzTarPerm modified mode [ 'lib/lib.esnext.collection.d.ts', 420, 438 ]
+588 silly gunzTarPerm extractEntry lib/lib.esnext.d.ts
+589 silly gunzTarPerm modified mode [ 'lib/lib.esnext.d.ts', 420, 438 ]
+590 silly gunzTarPerm extractEntry lib/lib.esnext.decorators.d.ts
+591 silly gunzTarPerm modified mode [ 'lib/lib.esnext.decorators.d.ts', 420, 438 ]
+592 silly gunzTarPerm extractEntry
+593 silly gunzTarPerm modified mode [ '', 420, 438 ]
+594 silly gunzTarPerm extractEntry
+595 silly gunzTarPerm modified mode [ '', 420, 438 ]
+596 silly gunzTarPerm extractEntry lib/lib.esnext.disposable.d.ts
+597 silly gunzTarPerm modified mode [ 'lib/lib.esnext.disposable.d.ts', 420, 438 ]
+598 silly gunzTarPerm extractEntry
+599 silly gunzTarPerm modified mode [ '', 420, 438 ]
+600 silly gunzTarPerm extractEntry lib/lib.esnext.full.d.ts
+601 silly gunzTarPerm modified mode [ 'lib/lib.esnext.full.d.ts', 420, 438 ]
+602 silly gunzTarPerm extractEntry lib/lib.esnext.intl.d.ts
+603 silly gunzTarPerm modified mode [ 'lib/lib.esnext.intl.d.ts', 420, 438 ]
+604 silly gunzTarPerm extractEntry
+605 silly gunzTarPerm modified mode [ '', 420, 438 ]
+606 silly gunzTarPerm extractEntry lib/lib.esnext.iterator.d.ts
+607 silly gunzTarPerm modified mode [ 'lib/lib.esnext.iterator.d.ts', 420, 438 ]
+608 silly gunzTarPerm extractEntry lib/lib.esnext.object.d.ts
+609 silly gunzTarPerm modified mode [ 'lib/lib.esnext.object.d.ts', 420, 438 ]
+610 silly gunzTarPerm extractEntry lib/lib.esnext.promise.d.ts
+611 silly gunzTarPerm modified mode [ 'lib/lib.esnext.promise.d.ts', 420, 438 ]
+612 silly gunzTarPerm extractEntry lib/lib.esnext.regexp.d.ts
+613 silly gunzTarPerm modified mode [ 'lib/lib.esnext.regexp.d.ts', 420, 438 ]
+614 silly gunzTarPerm extractEntry lib/lib.esnext.string.d.ts
+615 silly gunzTarPerm modified mode [ 'lib/lib.esnext.string.d.ts', 420, 438 ]
+616 silly gunzTarPerm extractEntry lib/lib.scripthost.d.ts
+617 silly gunzTarPerm modified mode [ 'lib/lib.scripthost.d.ts', 420, 438 ]
+618 silly gunzTarPerm extractEntry lib/lib.webworker.asynciterable.d.ts
+619 silly gunzTarPerm modified mode [ 'lib/lib.webworker.asynciterable.d.ts', 420, 438 ]
+620 silly gunzTarPerm extractEntry lib/lib.webworker.d.ts
+621 silly gunzTarPerm modified mode [ 'lib/lib.webworker.d.ts', 420, 438 ]
+622 silly gunzTarPerm extractEntry lib/lib.webworker.importscripts.d.ts
+623 silly gunzTarPerm modified mode [ 'lib/lib.webworker.importscripts.d.ts', 420, 438 ]
+624 silly gunzTarPerm extractEntry lib/lib.webworker.iterable.d.ts
+625 silly gunzTarPerm modified mode [ 'lib/lib.webworker.iterable.d.ts', 420, 438 ]
+626 silly gunzTarPerm extractEntry lib/tsserverlibrary.d.ts
+627 silly gunzTarPerm modified mode [ 'lib/tsserverlibrary.d.ts', 420, 438 ]
+628 silly gunzTarPerm extractEntry lib/typescript.d.ts
+629 silly gunzTarPerm modified mode [ 'lib/typescript.d.ts', 420, 438 ]
+630 silly gunzTarPerm extractEntry LICENSE.txt
+631 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+632 silly gunzTarPerm extractEntry ThirdPartyNoticeText.txt
+633 silly gunzTarPerm modified mode [ 'ThirdPartyNoticeText.txt', 420, 438 ]
+634 silly gunzTarPerm extractEntry
+635 silly gunzTarPerm modified mode [ '', 420, 438 ]
+636 verbose write writing to C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\typescript\package.json
+637 info preinstall typescript@5.6.2
+638 verbose readDependencies loading dependencies from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\typescript\package.json
+639 verbose readDependencies loading dependencies from C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\typescript\package.json
+640 silly install resolved []
+641 verbose about to build C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\typescript
+642 info build C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\typescript
+643 info linkStuff typescript@5.6.2
+644 silly linkStuff typescript@5.6.2 has C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules as its parent node_modules
+645 verbose linkBins typescript@5.6.2
+646 verbose link bins [
+646 verbose link bins   { tsc: 'bin/tsc', tsserver: 'bin/tsserver' },
+646 verbose link bins   'C:\\Users\\llVll\\Desktop\\Projects\\TMG Portfolio\\node_modules\\.bin',
+646 verbose link bins   false
+646 verbose link bins ]
+647 verbose linkMans typescript@5.6.2
+648 verbose rebuildBundles typescript@5.6.2
+649 info install typescript@5.6.2
+650 info postinstall typescript@5.6.2
+651 verbose unlock done using C:\Users\llVll\AppData\Local\npm-cache\_locks\typescript-96dfff4d640cabf7.lock for C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\typescript
+652 verbose unlock done using C:\Users\llVll\AppData\Local\npm-cache\_locks\types-node-56d7205978987680.lock for C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\node
+653 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react\package.json'
+654 verbose cwd C:\Users\llVll\Desktop\Projects\TMG Portfolio
+655 error Windows_NT 10.0.19045
+656 error argv "C:\\Users\\llVll\\Desktop\\Projects\\TMG Portfolio\\node_modules\\node\\bin\\node.exe" "C:\\Users\\llVll\\Desktop\\Projects\\TMG Portfolio\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-exact" "--save-dev" "typescript" "@types/react" "@types/node"
+657 error node v22.9.0
+658 error npm  v2.15.12
+659 error path C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react\package.json
+660 error code ENOTDIR
+661 error errno -4058
+662 error syscall open
+663 error ENOENT: no such file or directory, open 'C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react\package.json'
+664 error If you need help, you may report this error at:
+664 error     <https://github.com/npm/npm/issues>
+665 verbose exit [ -4058, true ]
+666 verbose unbuild node_modules\@types\react
+667 silly gentlyRm C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react is being purged from base C:\Users\llVll\Desktop\Projects\TMG Portfolio
+668 verbose gentlyRm don't care about contents; nuking C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react
+669 silly vacuum-fs purging C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\react
+670 silly vacuum-fs quitting because other entries in C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types
+671 verbose unbuild node_modules\@types\node
+672 silly gentlyRm C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\node is being purged from base C:\Users\llVll\Desktop\Projects\TMG Portfolio
+673 verbose gentlyRm don't care about contents; nuking C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\node
+674 silly vacuum-fs purging C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types\node
+675 silly vacuum-fs removing C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules\@types
+676 silly vacuum-fs quitting because other entries in C:\Users\llVll\Desktop\Projects\TMG Portfolio\node_modules
