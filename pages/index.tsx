@@ -12,13 +12,13 @@ export default function Home() {
 
       {/* Main HTML content */}
       <main className="text-center">
-        <h1 className="text-4xl font-bold text-orange-600">Welcome to My Next.js App</h1>
-        <p>This is a simple page created with JSX in Next.js!</p>
+        <h1 className="text-4xl font-bold text-orange-600">TMG - Portfolio</h1>
+        <p>Welcome</p>
       </main>
       
       {/* Footer */}
       <footer>
-        <p>© 2024 My Next.js App. All rights reserved.</p>
+        <p>© 2024 TMG</p>
       </footer>
     </div>
   );
