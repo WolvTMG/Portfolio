@@ -5,7 +5,12 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}', // Include all JS/TS files in the components directory
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'dark-gray': '#000d1a',
+        'light-gray': '#001f33',
+      }
+    },
   },
   plugins: [],
 }

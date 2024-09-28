@@ -1,3 +1,4 @@
 node_modules/
 .next/
 text-env.d.ts
+npm-debug.log
