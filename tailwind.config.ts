@@ -57,7 +57,16 @@ const config: Config = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		screens: {
+		'xs': '480px',   // Custom breakpoint for extra small devices
+		'sm': '640px',   // Default small screen size
+		'md': '768px',   // Medium screen size
+		'lg': '1024px',  // Large screen size
+		'xl': '1280px',  // Extra large screen size
+		'2xl': '1536px', // Double extra large screen size
+		'xxl': '1800px', // Custom breakpoint for very large screens
+		},
   	}
   },
   plugins: [require("tailwindcss-animate")],

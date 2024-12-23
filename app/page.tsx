@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <header className="relative flex items-center h-16 mt-5 justify-between px-4 md:px-10">
-      <h1 className="text-3xl font-bold ml-[12.6rem]">WolvTMG</h1> {/* Adjusted left margin */}
+      <h1 className="text-3xl font-bold ml-[26px] lg:ml-[12.6rem] ">WolvTMG</h1> {/* Adjusted left margin */}
 
       {/* Toggle button for mobile menu */}
       <button
@@ -84,15 +84,19 @@ export default function Home() {
 
       <main className="flex-grow">
         
-        <div className="h-10 absolute right-0 mt-20 mr-20">
-          <img src="/images/image.gif" className="rounded-lg shadow-lg mr-20" alt="description" />
-        </div>
-        <div className="ml-60 text-4xl mt-40">
+        <div className="ml-10 sm:ml-10 md:ml-40 lg:ml-60   mr-10  sm:mr-10 md:mr-40 lg:mr-60     text-4xl mt-40">
           I am a <span className="text-orange-500"><ReactTyped strings={["software developer", "full stack developer", "cybersecurity enthusiast"]} typeSpeed={40} backSpeed={40} loop /></span>
         </div>
-        <h2 className="ml-60 mt-10 text-gray-400">Thanks for visiting my portfolio. My name is Steven, and I am a fullstack website developer.<br></br>
+        <h2 className="ml-10 sm:ml-10 md:ml-40 lg:ml-60    mr-10 sm:mr-10 md:mr-40 lg:mr-60 mt-10 text-gray-400">Thanks for visiting my portfolio. My name is Steven, and I am a fullstack website developer.<br></br>
             I develop premium websites and offer custom freelance work.
         </h2>
+
+        <div className="absolute right-0 mt-20 mr-20     xs:w-[100px] md:w-[150px] lg:w-[300px] xl:w-[500px]">
+          <img src="/images/image.gif" className="rounded-lg shadow-lg absolute right-0 top-1/2 transform -translate-y-1/2 sm:static" alt="description" />
+        </div>
+
+        
+
 
         <div className="mt-80 p-4 rounded-lg shadow-md">
           <div className="container mx-auto w-1/3">
@@ -112,19 +116,21 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col items-center text-left">
-          <h1 className="text-3xl mt-20 text-left w-full max-w-4xl text-left">Popular frameworks, libraries, & languages.</h1>
-          <div className="w-full max-w-4xl text-left text-gray-400">
-            <br></br>I have developed basic to complex websites and software solutions for years utilizing the following technologies. These<br></br>
-            frameworks make web development powerful and easy for developers to use at the same time. All of these technologies<br></br>
-            are being used by many of the popular and well-known tech giants! See some of my custom work with these technologies here.
+          <h1 className="text-3xl mt-20 w-full max-w-4xl sm:ml-[50px] sm:text-left text-center">
+            Popular frameworks, libraries, & languages.
+          </h1>
+          <div className="w-full max-w-4xl text-gray-400 sm:ml-[50px] sm:text-left text-center">
+            <br />I have developed basic to complex websites and software solutions for years utilizing the following technologies. These
+            <br />frameworks make web development powerful and easy for developers to use at the same time. All of these technologies
+            <br />are being used by many of the popular and well-known tech giants! See some of my custom work with these technologies here.
           </div>
         </div>
 
 
         <div className="w-full bg-light-gray py-10 mt-60 mb-80">  
           <div className="max-w-6xl mx-auto text-right flex">
-            <img src="images/image.gif" className="rounded-lg shadow-lg w-1/3"></img>
-            <div className="flex flex-col ml-auto w-1/2 max-w-md text-right">
+            <img src="images/image.gif" className="rounded-lg shadow-lg hidden sm:block w-1/3"></img>
+            <div className="ml-[10px] sm:ml-[50px]      mr-[10px] sm:mr-[50px] lg:mr-[10px] text-right">
               <h1 className="text-4xl font-bold">About me</h1>
               <p className="flex mt-10 text-gray-400">
                 I am an ambitious full-stack developer with a strong foundation in modern frameworks and technologies. At just 18 years old,
