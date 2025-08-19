@@ -14,8 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "TMG - MIDVITE",
-  description: "Coded in TypeScript, generated in node.js",
+  title: "TMG - MIDVITE"
 };
 
 export default function RootLayout({
