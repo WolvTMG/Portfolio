@@ -136,7 +136,7 @@ export default function Home() {
             <div className="ml-[10px] sm:ml-[50px]      mr-[10px] sm:mr-[50px] lg:mr-[10px] text-right">
               <h1 className="text-4xl font-bold">About me</h1>
               <p className="flex mt-10 text-gray-400">
-                Currently studying my Bachelor's degree in cybersecurity, I have achieved my T level in Computer Science and three A Levels.
+                Currently studying my Bachelors degree in cybersecurity, I have achieved my T level in Computer Science and three A Levels.
                 I gained valuable experience working with a Virtual Reality development company, and my
                 freelance work has further honed my skills in software development and cybersecurity. I am dedicated to creating high-quality
                 web solutions that meet business needs and contribute to innovative projects. I strive to grow and aim high in all my endeavors.
