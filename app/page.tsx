@@ -39,7 +39,7 @@ const Navbar = () => {
       </button>
 
       {/* Desktop Menu */}
-      <nav className="hidden md:flex justify-center w-full">
+      <nav className="hidden md:flex ml-auto mr-[26px] lg:mr-[12.6rem]">
         <ul className="flex space-x-8 text-white">
           <li><a href="#about">About</a></li>
           <li><a href="#languages">Languages</a></li>
@@ -130,13 +130,13 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full bg-dark-gray py-10 mt-60 mb-80">  
+        <div className="w-full py-10 mt-60 mb-80">  
           <div className="max-w-6xl mx-auto text-right flex">
             <img src="images/tmgmidvitelogonowords.png" className="rounded-lg shadow-lg hidden sm:block w-1/3"></img>
             <div className="ml-[10px] sm:ml-[50px]      mr-[10px] sm:mr-[50px] lg:mr-[10px] text-right">
               <h1 className="text-4xl font-bold">About me</h1>
               <p className="flex mt-10 text-gray-400">
-                Currently studying my Bachelors degree in cybersecurity, I have achieved my T level in Computer Science and three A Levels.
+                Currently studying my Bachelors degree in Cybersecurity, I have achieved my T level in Computer Science and three A Levels.
                 I gained valuable experience working with a Virtual Reality development company, and my
                 freelance work has further honed my skills in software development and cybersecurity. I am dedicated to creating high-quality
                 web solutions that meet business needs and contribute to innovative projects. I strive to grow and aim high in all my endeavors.
@@ -193,26 +193,27 @@ export default function Home() {
           <div className="bg-dark-gray shadow-md rounded-lg p-6 w-1/3 flex flex-col items-center">
             <h1 className="text-xl font-bold mb-4 text-center">Check out my Github!</h1>
             <p className="mb-4 text-center">This is where you can see some of my projects</p>
-            <button className="bg-blue-500 text-white py-1 px-4 rounded hover:bg-blue-600 w-24">
+            <button className="bg-blue-500 text-white py-1 px-4 rounded hover:bg-blue-600 w-24" onClick={() => window.open('https://github.com/WolvTMG', '_blank')}>
+              
               Click Me
             </button>
           </div>
         </div>
 
         <div className="grid grid-cols-4 gap-4 px-8 max-w-screen-lg mx-auto">
-          <div className="bg-dark-gray p-4 flex flex-col items-center">
+          <div className="bg-dark-gray p-4 flex flex-col items-center rounded-lg shadow-lg">
             <img src="images/btc.png"></img>
               <span className="mt-4 font-bold">Bitcoin</span>
           </div>
-          <div className="bg-dark-gray p-4 flex flex-col items-center">
+          <div className="bg-dark-gray p-4 flex flex-col items-center rounded-lg shadow-lg">
             <img src="images/eth.png"></img>
               <span className="mt-4 font-bold">Etherium</span>
           </div>
-          <div className="bg-dark-gray p-4 flex flex-col items-center">
+          <div className="bg-dark-gray p-4 flex flex-col items-center rounded-lg shadow-lg">
             <img src="images/xrp.png"></img>
               <span className="mt-4 font-bold">XRP</span>
           </div>
-          <div className="bg-dark-gray p-4 flex flex-col items-center">
+          <div className="bg-dark-gray p-4 flex flex-col items-center rounded-lg shadow-lg">
             <img src="images/sol.png"></img>
               <span className="mt-4 font-bold">Solana</span>
           </div>
