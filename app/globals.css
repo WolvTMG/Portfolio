@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply text-white;
   font-family: Arial, Helvetica, sans-serif;
@@ -11,6 +15,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+section {
+  scroll-margin-top: 4rem; /* height of your navbar + extra margin */
 }
 
 @layer base {
